@@ -1,9 +1,9 @@
 name: CI/CD Pipeline
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, Precious-project ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main, master, Precious-project ]
   workflow_dispatch:
 
 env:
